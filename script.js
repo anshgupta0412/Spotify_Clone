@@ -78,7 +78,6 @@ songs = [
 ]
 
 order = [...songs];
-
 allMusic.forEach((element, i) => {
     element.getElementsByTagName('img')[0].src = songs[i].songImage;
     element.getElementsByClassName('img-title')[0].innerText = songs[i].songName;
